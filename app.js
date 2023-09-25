@@ -1,6 +1,8 @@
-const pressBtn = document.querySelector(".press-btn");
+const pressBtn = document.querySelector("#number-button");
 const upgradeBtn = document.querySelector("#upgrade-button");
-const upgradeNum = document.querySelector("#number-button");
+const upgradeNum = document.querySelector(".press-btn");
+
+console.log(pressBtn, upgradeBtn, upgradeNum);
 
 let numPress = 1;
 let numUpgrade = 10;
