@@ -16,11 +16,9 @@
   margin: 3.3rem;
 }
 
-.star-svg{
-  background-color:#ff0;
-}
-.star-svg path{
-  fill: #c4c4c4;
+#sun-icon{
+  fill: #ff0;
+  margin-top: 1rem;
 }
 
 #upgrade-button{
