@@ -29,3 +29,12 @@ const updateNum = function () {
   numPress = numPress * 2;
   numUpgrade = numUpgrade * 2;
 };
+
+
+//iLi's js//
+const sunIcon = document.getElementById("sun-icon");
+
+upgradeBtn.addEventListener('click', () => {
+    sunIcon.style.fill = '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
+    //Random Hex Color Code Generator//
+})
